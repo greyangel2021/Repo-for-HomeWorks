@@ -1,3 +1,9 @@
+/**
+* Java 1. Home Work Lesson 1
+* @author Kayumov Rustem
+* @version 10.09.2021
+*/
+
 public class HomeWork1 {
     public static void main(String[] args) {
         printThreeWords();
@@ -5,23 +11,20 @@ public class HomeWork1 {
         printColor();
         compareNumbers();
     }
-    public static void printThreeWords() {
+    
+    static void printThreeWords() {
         System.out.println ("Orange");
         System.out.println ("Banana");
         System.out.println ("Apple");
     }
-    public static void checkSumSign() {
+    
+    static void checkSumSign() {
         int a = 5;
-        int b = 8;
-        int c = a + b;
-        System.out.println (c = a + b);
-        if (c >= 0) {
-        System.out.println ("The amount is positive");
-    }    else {
-        System.out.println ("The amount is negative");
-    }
-    }
-    public static void printColor() {
+        int b = -8;
+        System.out.println ("The amount is " + (a + b >= 0? "positive" : "negative"));
+        }
+    
+    static void printColor() {
         int value = 54;
         if (value <= 0) {
             System.out.println ("Red");
@@ -33,16 +36,13 @@ public class HomeWork1 {
             System.out.println ("Green");
         }
         }
-    public static void compareNumbers() {
+        
+    static void compareNumbers() {
         int a = 37;
         int b = 49;
-        if (a >= b) {
-            System.out.println ("a>=b");
+            System.out.println ("a " + (a >= b? ">= b" : "< b"));
         }
-        else {
-            System.out.println ("a<b");
-        }
-    }
+    
 }
 
 
