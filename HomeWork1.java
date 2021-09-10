@@ -21,7 +21,7 @@ public class HomeWork1 {
     static void checkSumSign() {
         int a = 5;
         int b = -8;
-        System.out.println ("The amount is " + (a + b >= 0? "positive" : "negative"));
+            System.out.println ("The amount is " + (a + b >= 0? "positive" : "negative"));
         }
     
     static void printColor() {
@@ -42,8 +42,7 @@ public class HomeWork1 {
         int b = 49;
             System.out.println ("a " + (a >= b? ">= b" : "< b"));
         }
-    
-}
+    }
 
 
 
