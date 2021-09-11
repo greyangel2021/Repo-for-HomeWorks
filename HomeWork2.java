@@ -7,6 +7,8 @@
 class HomeWork2 {
     public static void main(String[] args) {
     System.out.println (less20Greater10());
+    primerSvicha();
+    eshePrimer();
     }
     
     static boolean less20Greater10() {
@@ -38,6 +40,30 @@ class HomeWork2 {
             return false;
         }
     }
-}
-        
+    static void primerSvicha() {
+        int a = 2;
+        if (a == 1) {
+            System.out.println("a = 1");
+        }
+        else if (a == 3) {
+            System.out.println("a = 3");
+        } else {
+            System.out.println("Ни одно условие не сработало");
+        }
+    }
+    static void eshePrimer() {
+        int a = 4;
+        switch (a) {
+            case 1:
+            System.out.println("a = 1");
+            break;
+            case 3:
+            System.out.println("a = 3");
+            break;
+            default:
+            System.out.println("Ни один case не сработал");
+        }
+    }
 
+       
+    
