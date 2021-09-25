@@ -21,7 +21,6 @@ class HomeWork3 {
             array2[i] = i + 1;
             System.out.print(array2[i] + " ");
         }
-
         System.out.println();
 
         int[] array3 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
@@ -46,7 +45,7 @@ class HomeWork3 {
 
         int[] fillSameVall;
         int len = 10;
-        int initialValue = 15;
+        int initialValue = 21;
         {
             int[] array5 = new int[len];
             for (int i = 0; i < len; i++) {
