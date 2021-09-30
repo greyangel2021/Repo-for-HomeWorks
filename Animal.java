@@ -1,3 +1,9 @@
+/**
+* Java 1. Home Work Lesson 6.
+* @author Kayumov Rustem
+* @version 30.09.2021
+*/
+
 abstract class Animal implements IAnimal {
     private int runLimit;
     private int swimLimit;
