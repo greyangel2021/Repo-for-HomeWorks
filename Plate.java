@@ -1,7 +1,7 @@
 /**
 * Java 1. Home Work Lesson 7.
 * @author Kayumov Rustem
-* @version 04.10.2021
+* @version 05.10.2021
 */
 
 class Plate {
