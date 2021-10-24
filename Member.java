@@ -8,7 +8,6 @@ public class Member {
         this.jumpHeight = jumpHeight;
     }
 
-
     public void info() {
         System.out.println(name + " " + jumpHeight + " " + isFinished);
         isFinished = false;
